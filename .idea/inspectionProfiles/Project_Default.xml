@@ -1,0 +1,14 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="int.is_integer" />
+          <option value="mainapp.models.forms" />
+          <option value="Lesson_4.HW_4_1.unit_tests.test_utilities.variables" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
