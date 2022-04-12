@@ -202,7 +202,7 @@ class ConfigWindow(QDialog):
         self.save_btn = QPushButton('Сохранить' , self)
         self.save_btn.move(190 , 220)
 
-        # Кнапка закрытия окна
+        # Кнопка закрытия окна
         self.close_button = QPushButton('Закрыть', self)
         self.close_button.move(275, 220)
         self.close_button.clicked.connect(self.close)

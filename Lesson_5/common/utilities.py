@@ -5,7 +5,6 @@ sys.path.append(os.path.join(os.getcwd(), '..'))
 import json
 
 from common.errors import IncorrectDataRecievedError, NonDictInputError
-
 from common.variables import MAX_MESSAGE_SIZE, ENCODING
 from common.decos import log
 
