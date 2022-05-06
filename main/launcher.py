@@ -11,13 +11,13 @@ while True:
     if ACTION == 'q':
         break
     elif ACTION == 's':
-        PROCESSES.append(subprocess.Popen('python server.py',
+        PROCESSES.append(subprocess.Popen('python server_side.py',
                                           creationflags=subprocess.CREATE_NEW_CONSOLE))
-        PROCESSES.append(subprocess.Popen('python client.py -n test1',
+        PROCESSES.append(subprocess.Popen('python client_side.py -n test1',
                                           creationflags=subprocess.CREATE_NEW_CONSOLE))
-        PROCESSES.append(subprocess.Popen('python client.py -n test2',
+        PROCESSES.append(subprocess.Popen('python client_side.py -n test2',
                                           creationflags=subprocess.CREATE_NEW_CONSOLE))
-        PROCESSES.append(subprocess.Popen('python client.py -n test3',
+        PROCESSES.append(subprocess.Popen('python client_side.py -n test3',
                                           creationflags=subprocess.CREATE_NEW_CONSOLE))
     elif ACTION == 'x':
         while PROCESSES:
