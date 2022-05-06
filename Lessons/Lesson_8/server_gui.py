@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.append(os.path.join(os.getcwd(), '..'))
+sys.path.append(os.path.join(os.getcwd(), '../..'))
 from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication, QLabel, \
     QTableView, QDialog, QPushButton, \
     QLineEdit, QFileDialog, QMessageBox
@@ -225,7 +225,7 @@ class ConfigWindow(QDialog):
 
 if __name__ == '__main__':
     # QCoreApplication.addLibraryPath(PLUGINS_PATH)
-    QCoreApplication.addLibraryPath("./")
+    QCoreApplication.addLibraryPath("/")
     """
     app = QApplication(sys.argv)
     ex = MainWindow()

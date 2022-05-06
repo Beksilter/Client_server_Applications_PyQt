@@ -1,5 +1,5 @@
 import os,sys
-sys.path.append(os.path.join(os.getcwd(), '..'))
+sys.path.append(os.path.join(os.getcwd(), '../..'))
 import argparse
 import logging
 import configparser
@@ -108,7 +108,7 @@ if __name__ == '__main__':
     # C:\Users\23rad\AppData\Local\Programs\
     # Python\Python39\Lib\site-packages\PyQt5\Qt\plugins\platforms
     # и следующая команда:
-    QCoreApplication.addLibraryPath("./")
+    QCoreApplication.addLibraryPath("/")
 
     # Более простое решение, просто указать путь до папки в виртуальном
     # окружениее но в папке QT5, а не QT, тогда папку копировать не нужно:

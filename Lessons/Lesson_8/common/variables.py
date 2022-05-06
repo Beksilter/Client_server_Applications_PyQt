@@ -4,7 +4,7 @@ from logging import DEBUG, ERROR
 
 PROJECT_PATH = os.getcwd()
 PLUGINS_PATH = os.path.join(
-    PROJECT_PATH, "../../venv/Lib/site-packages/PyQt5/Qt5/plugins")
+    PROJECT_PATH, "../../../Venv/Lib/site-packages/PyQt5/Qt5/plugins")
 
 CLIENT_PATH = os.path.join(PROJECT_PATH, "client")
 CLIENT_FILE = os.path.join(CLIENT_PATH, "client_side.py")
