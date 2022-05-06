@@ -287,7 +287,7 @@ def main():
     config = config_load()
 
     # Загрузка параметров командной строки, если нет параметров, то задаём значения по умоланию
-    # server.py -p 8079 -a 192.168.1.2
+    # server_side.py -p 8079 -a 192.168.1.2
     listen_address, listen_port = create_arg_parser(
         config['SETTINGS']['Default_port'], config['SETTINGS']['Listen_Address'])
 
